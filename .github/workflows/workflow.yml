@@ -1,7 +1,7 @@
 name: Custom-workflow
 on: push
 jobs:
-  main-job:
+  my-job:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

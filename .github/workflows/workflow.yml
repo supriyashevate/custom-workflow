@@ -4,7 +4,7 @@ jobs:
   main-job:
     runs-on: ubuntu-latest
     steps:
-      uses: actions/checkout@v2
-      uses: supriyashevate/custome-actions@main
+      - uses: actions/checkout@v2
+      - uses: supriyashevate/custome-actions@main
     
   

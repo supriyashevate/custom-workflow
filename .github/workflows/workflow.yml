@@ -1,10 +1,13 @@
 name: Custom-workflow
-on: [push]
+on: 
+  push:
+    branches: 
+      - master
 jobs:
   main-job:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: supriyashevate/custome-actions@main
+      - uses: supriyashevate/custome-actions@master
     
   
